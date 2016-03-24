@@ -13,7 +13,7 @@ We've seen how to use `ng-model` to update our controller's value when a user ty
 
 ## ngModelOptions
 
-So far, we've been updating our model values immediately. However, in some circumstances, we might want to wait until the user has actually finished typing. You'll notice this is used quite a lot in popular applications - Facebook waits for you to have finished typing for a little bit before then making your search - this reduces server load and stops them firing off 100s of pointless requests as the user types.
+So far, we've been updating our model values immediately. However, in some circumstances, we might want to wait until the user has actually finished typing. You'll notice this is used quite a lot in popular applications. Facebook waits for you to have finished typing for a little bit before making a search query. This reduces server load and stops them firing off hundreds of pointless requests as the user types.
 
 We apply `ng-model-options` to our inputs, passing in a configuration option.
 
