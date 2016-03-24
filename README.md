@@ -48,5 +48,5 @@ This will only update `ctrl.search` after the user has stopped typing for a full
 We can also pass through an object of different event types to debounce. For instance, if we wanted it to update immediately after the user exists the input, but a second after the user stops typing, we'd use:
 
 ```html
-<input ng-model="ctrl.search" ng-model-options="{debounce: {'default': 1000, 'blur': 0}" />
+<input ng-model="ctrl.search" ng-model-options="'updateOn': 'default blur', {debounce: {'default': 1000, 'blur': 0}" />
 ```
