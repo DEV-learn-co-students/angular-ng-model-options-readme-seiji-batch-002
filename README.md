@@ -2,7 +2,7 @@
 
 ## Overview
 
-We've seen how to use `ng-model` to update our controller's value when a user types in a field, but we're used to controller updating immediately. `ngModelOptions` allows us to control *exactly* when these updates occur.
+We've seen how to use `ng-model` to update our controller's value when a user types in a field, but we're used to controllers updating immediately. `ngModelOptions` allows us to control *exactly* when these updates occur.
 
 ## Objectives
 
