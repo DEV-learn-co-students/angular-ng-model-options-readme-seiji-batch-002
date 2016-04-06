@@ -31,7 +31,7 @@ We can choose `ng-model` to only update on a certain type of event, such as `blu
 <input ng-model="ctrl.search" ng-model-options="{updateOn: 'blur'}" />
 ```
 
-This will only update `ctrl.search` when the user exists the input.
+This will only update `ctrl.search` when the user exits the input.
 
 ### debounce
 
