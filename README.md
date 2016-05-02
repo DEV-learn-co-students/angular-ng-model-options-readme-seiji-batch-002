@@ -45,10 +45,12 @@ If we set it to 200ms, it will wait for no button presses on the input for 200ms
 
 This will only update `ctrl.search` after the user has stopped typing for a full second.
 
-We can also pass through an object of different event types to debounce. For instance, if we wanted it to update immediately after the user exists the input, but a second after the user stops typing, we'd use:
+We can also pass through an object of different event types to debounce. For instance, if we wanted it to update immediately after the user exits the input, but a second after the user stops typing, we'd use:
 
 ```html
 <input ng-model="ctrl.search" ng-model-options="{ updateOn: 'default blur', debounce: {'default': 1000, 'blur': 0} }" />
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-ng-model-options-readme'>Angular Ng Model Options </a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-ng-model-options-readme'>Angular Ng Model Options </a> on Learn.co and start learning to code for free.</p>
